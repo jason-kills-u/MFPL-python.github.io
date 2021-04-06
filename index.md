@@ -6,7 +6,7 @@
 
 ## Tutorial
 
-MFPL is similar to brainf*ck. The only difference is that instead of symbols, MFPL uses words, like '+': addPlease note that loops aren't added since this is still beta.
+MFPL is similar to brainf*ck. The only difference is that instead of symbols, MFPL uses words, like '+': add. Please note that loops aren't added since this is still beta.
 
 1. Create a file with the name "test.mfpl" with the content "add add out done".
 3. run ./mfpl test.mfpl or mfpl test.mfpl
@@ -15,4 +15,4 @@ MFPL is similar to brainf*ck. The only difference is that instead of symbols, MF
 
 There are more words you can explore outside of this tutorial, like sub, movr, movl!
 
-# If there are any problems you can report to [here](https://github.com/jason-kills-u/MFPL/issues)
+# If there are any problems you can report to [here](https://github.com/jason-kills-u/MFPL/issues).
