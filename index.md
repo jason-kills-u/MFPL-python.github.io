@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Welcome to the MFPL official website!
 
-You can use the [editor on GitHub](https://github.com/jason-kills-u/MFPL-python.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Note: This website only explains the basics of MFPL. how to build can be found in the readme file of the MFPL-python repository...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Prerequisite: [MFPL-python](https://github.com/jason-kills-u/MFPL-python)
 
-### Markdown
+## Tutorial
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+MFPL is similar to brainf*ck. The only difference is that instead of symbols, MFPL uses words, like '+': plus. Please note that loops aren't added since this is still beta.
 
-```markdown
-Syntax highlighted code block
+1. Create a file with the name "test.mfpl" with the content "add add out done".
+3. run ./mfpl test.mfpl or mfpl test.mfpl
+4. The output should be 'C'
+5. Why? MFPL uses the cell system like brainf*ck but every cell has a default value of 64, which in ascii is 'A'. When there is a word "add", the value in the cell you are in is added by one, making it 'B'. And so on... The output of ./mfpl test.mfpl is 'C' because the value in the first cell is added by two(there are two adds in test.mfpl) making it 66 which is the ascii value of 'C'. Then there is an out word which outputs the ascii character form of the ascii value in the current cell. Which in turn, outputs 'C'. And at the end, done which signals the end of program.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jason-kills-u/MFPL-python.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+There are more words you can explore outside of this tutorial, like sub, movr, movl.
