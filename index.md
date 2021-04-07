@@ -15,4 +15,4 @@ MFPL is similar to brainf*ck. The only difference is that instead of symbols, MF
 
 There are more words you can explore outside of this tutorial, like sub, movr, movl!
 
-# If there are any problems you can report to [here](https://github.com/jason-kills-u/MFPL/issues).
+# If there are any problems with MFPL you can report to [here](https://github.com/jason-kills-u/MFPL-python/issues), if there are gramatical errors in this website please report to this [website](https://github.com/jason-kills-u/MFPL/issues).
